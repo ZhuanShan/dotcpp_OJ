@@ -29,7 +29,7 @@ int lten(int a){
 }
 int uten(int a){
     int b5=lten(1000000);
-    int b6=b5+(a-1000000)*0.001;
+    int b6=b5+(a-1000000)*0.01;
     return b6;
 }
 
