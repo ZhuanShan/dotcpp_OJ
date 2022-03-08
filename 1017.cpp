@@ -20,20 +20,21 @@ void judgewan(long long a){
         }
     }
     if(sum==a){
-        printf("\n%lld its factors are",a);
+        cout<<a<<" its factors are ";
         for(long long l=1;l<=a/2;l++){
             if(b[l]==1){
                 printf("%lld ",l);
             }
         }
+        cout<<"\n";
     }
-    
 }
+    
 
 int main(){
     long long num;
     cin>>num;
-    for(long long k=2;k<=num;k++){
+    for(long long k=2;k<=num;k+=2){
         judgewan(k);
     }
     return 0;
