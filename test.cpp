@@ -3,14 +3,13 @@
 #include <string.h>
 using namespace std;
 
+void judgewan(long long a){
+}
 int main(){
-    double k,c;
-    cin>>c;
-    double hc=0;
-    for(k=1;k<=c;k++){
-        hc=hc+(1/k);
-         printf("%.2f\n",hc);
+    long long num;
+    cin>> num;
+    for(long long k=1;k<=num;k++){
+        judgewan(k);
     }
-    printf("%.2f",hc);
     return 0;
 }
